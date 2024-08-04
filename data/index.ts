@@ -8,17 +8,19 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "Delivering successful projects through strong client collaboration and crystal-clear communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    titleClassName: "justify-end text-right lg:ml-64",
+    img: "/b1.jpg",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "I'm adaptable to different time zones for smooth and effective communication",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionate developer with a strong enthusiasm for technology.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Actively studying React Js and other modern development tools.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to start a project together ?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,66 +74,85 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "EventsNow - Landing Page Tiket Konser",
+    des: "Halaman depan tiket konser dengan UI intuitif dan fitur unggulan menggunakan React JS.",
+    img: "/p1.jpg",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/javascript.svg",
+      "/vercel.png",
+      "/css.svg",
+    ],
+    link: "https://github.com/rizkyrachman00/landpage-react-next.git",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "KaryaKita - Freelance Web Platform",
+    des: "Platform web untuk freelancer, menyediakan berbagai proyek dari klien.",
+    img: "/p2.jpg",
+    iconLists: ["/php.svg", "/css.svg", "/html.svg", "/mysql.svg"],
+    link: "https://github.com/rizkyrachman00/finalProject-semester4-kreasiKarya.git",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Teh Poci - UMKM Website Sales",
+    des: "Website penjualan UMKM dengan antarmuka pengguna yang ramah dengan integrasi midtrans.",
+    img: "/p3.jpg",
+    iconLists: [
+      "/laravel.svg",
+      "/css.svg",
+      "/html.svg",
+      "/mysql.svg",
+      "/php.svg",
+      "/midtrans.jpg",
+    ],
+    link: "https://github.com/rizkyrachman00/teh_poci.git",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Ivent - Website Tiket Konser ",
+    des: "Situs web penjualan tiket konser dengan antarmuka intuitif dengan fitur cart dan payment gateway.",
+    img: "/p4.jpg",
+    iconLists: [
+      "/next.svg",
+      "/sass.svg",
+      "/ts.svg",
+      "/vercel.png",
+      "/midtrans.jpg",
+    ],
+    link: "https://github.com/rizkyrachman00/dev-tiket-konser.git",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Bekerja sama dengan Rizkyrachman adalah pengalaman yang sangat menyenangkan. Profesionalismenya, ketepatan waktunya, dan dedikasinya untuk memberikan hasil yang luar biasa terlihat jelas sepanjang proyek kami. Antusiasme Rizkyrachman terhadap setiap aspek pengembangan benar-benar menonjol. Jika Anda mencari mitra untuk meningkatkan situs web dan merek Anda, Rizkyrachman adalah pilihan yang sempurna.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Bekerja sama dengan Rizkyrachman adalah pengalaman yang sangat menyenangkan. Profesionalismenya, ketepatan waktunya, dan dedikasinya untuk memberikan hasil yang luar biasa terlihat jelas sepanjang proyek kami. Antusiasme Rizkyrachman terhadap setiap aspek pengembangan benar-benar menonjol. Jika Anda mencari mitra untuk meningkatkan situs web dan merek Anda, Rizkyrachman adalah pilihan yang sempurna.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Bekerja sama dengan Rizkyrachman adalah pengalaman yang sangat menyenangkan. Profesionalismenya, ketepatan waktunya, dan dedikasinya untuk memberikan hasil yang luar biasa terlihat jelas sepanjang proyek kami. Antusiasme Rizkyrachman terhadap setiap aspek pengembangan benar-benar menonjol. Jika Anda mencari mitra untuk meningkatkan situs web dan merek Anda, Rizkyrachman adalah pilihan yang sempurna.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Bekerja sama dengan Rizkyrachman adalah pengalaman yang sangat menyenangkan. Profesionalismenya, ketepatan waktunya, dan dedikasinya untuk memberikan hasil yang luar biasa terlihat jelas sepanjang proyek kami. Antusiasme Rizkyrachman terhadap setiap aspek pengembangan benar-benar menonjol. Jika Anda mencari mitra untuk meningkatkan situs web dan merek Anda, Rizkyrachman adalah pilihan yang sempurna.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Bekerja sama dengan Rizkyrachman adalah pengalaman yang sangat menyenangkan. Profesionalismenya, ketepatan waktunya, dan dedikasinya untuk memberikan hasil yang luar biasa terlihat jelas sepanjang proyek kami. Antusiasme Rizkyrachman terhadap setiap aspek pengembangan benar-benar menonjol. Jika Anda mencari mitra untuk meningkatkan situs web dan merek Anda, Rizkyrachman adalah pilihan yang sempurna.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },

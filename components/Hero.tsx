@@ -35,7 +35,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Rizkyrachman. a Next.js Developer From Indonesia
+            Hi, I&apos;m Rizkyrachman, a passionate Next.js developer from
+            Indonesia
           </p>
 
           <a href="#about">
