@@ -46,6 +46,9 @@ const Hero = () => {
               position="right"
             />
           </a>
+          <a href="https://www.profitablecpmrate.com/d3avm3117?key=21245690be0ec02cdc31114f75f1da30">
+            visit
+          </a>
         </div>
       </div>
     </div>
